@@ -199,4 +199,64 @@ html {
   font-size: 1.8rem;
 }
 
+@media only screen and (max-width: 800px) {
+  .tab-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tablink {
+    background-color: white;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1%;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .tab-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-flex-img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .tab-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tablink {
+    background-color: white;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1%;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .tab-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-flex-img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+}
+
 /* services css section end */
