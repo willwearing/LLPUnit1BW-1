@@ -1,4 +1,4 @@
-/*  */
+
 
 
 /* CSS Reset */
@@ -197,7 +197,7 @@ footer {
     max-width: 100%;
   }
   .modal.active {
-    transform: translate(-50%, -175%) scale(1);
+    transform: translate(0%, 0rem) scale(1);
   }
  
   

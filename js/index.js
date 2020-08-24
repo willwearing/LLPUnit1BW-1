@@ -9,12 +9,12 @@ openModalButtons.forEach(button => {
     })
 })
 // gets input from clicking outside of modal
-overlay.addEventListener('click', () => {
-    const Modals = document.querySelectorAll('.modal.active')
-    Modals.forEach(modal => {
-        closeModal(modal)
-    })
-})
+// overlay.addEventListener('click', () => {
+//     const Modals = document.querySelectorAll('.modal.active')
+//     Modals.forEach(modal => {
+//         closeModal(modal)
+//     })
+// })
 // gets input from close button
 closeModalButtons.forEach(button => {
     button.addEventListener('click', () => {
