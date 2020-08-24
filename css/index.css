@@ -142,15 +142,100 @@ body {
   font-family: "Roboto", Arial, sans-serif;
 }
 
+nav {
+    Background: #828282;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    min-height: 5vh;
+}
+
+.nav1NP {
+    align-self: flex-start;
+    margin-top: 1.5rem;
+    margin-left: 15rem;
+}
+
+.nav2NP {
+    align-self: flex-end;
+    margin-bottom: .8rem;
+    margin-right: 15rem;
+}
+
+.logoNP {
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #ffffff;
+}
+
 .jumbotron-home {
+    background-image: url("/img/home/home-jumbotron.png");
+    min-height: 115vh;
+    background-repeat: no-repeat;
+    background-attachment: none;
+    background-size: cover;
 }
 
 .jumbotron {
-    
-}
 
-nav {
 }
 
 footer {
 }
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+  }
+  .modal.active {
+    transform: translate(-50%, -175%) scale(1);
+  }
+ 
+  
+  .modal-header  {
+    cursor: pointer;
+    border: none;
+    outline: none; 
+    background: none;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none; 
+    background: none;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  
+  .modal-body {
+    padding: 10px 15px;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0; 
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: rgba(0, 0, 0, .7);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    pointer-events: all;
+    opacity: 1;
+  }

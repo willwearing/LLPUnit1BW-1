@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./css/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -8,15 +9,15 @@
 <body>
     <header>
         <nav>
-            <div>
-                <h3>S&J</h3>
+            <div class="nav1NP" >
+                <h3 class="logoNP" >S&J</h3>
             </div>
-            <div>
+            <div class="nav2NP" data-modal-target="#modal">
                 <img src="./img/nav-hamburger.png" alt="Menu Button">
             </div>
         </nav>
-        <div class="jumbotron">
-            <h1></h1>
+        <div class="jumbotron-home">
+            <h1>test</h1>
         </div>
         <footer>
             <div>
@@ -42,5 +43,22 @@
             </div>
         </footer>
     </header>
+
+
+
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div>
+                <button data-close-button class="close-button">&times;</button>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+           
+    </div>
+    </div>
+    <script src="./js/index.js"></script>
 </body>
 </html>
