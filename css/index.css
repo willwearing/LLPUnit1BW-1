@@ -141,7 +141,7 @@ body {
   font-family: "Roboto", Arial, sans-serif;
 }
 
-.jumbotron-home {
+/* .jumbotron-home {
 }
 
 .jumbotron {
@@ -151,7 +151,7 @@ nav {
 }
 
 footer {
-}
+} */
 
 /* service.html CSS section start*/
 
@@ -164,10 +164,6 @@ html {
 }
 
 /* Style tab links */
-.tab-bar-ww {
-  display: flex;
-  justify-content: space-around;
-}
 
 .tablink {
   background-color: white;
@@ -181,13 +177,9 @@ html {
   border: 1px solid black;
 }
 
-.tablink:hover {
-  background-color: #5899b0;
-}
-
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
+  color: black;
   display: none;
   padding: 100px 20px;
   height: 100%;

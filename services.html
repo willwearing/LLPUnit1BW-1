@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
     <title>Services</title>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
-    <script src="js/index.js"></script>
+
     <!--[if IE]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -23,30 +27,33 @@
       </p>
     </section>
 
-    <section class="tab-bar-ww">
+    <div class="tab-wrap">
       <button
         class="tablink"
-        onclick="openPage('Pre-Construction', this, '#5899b0')"
+        onclick="openPage('Pre-Construction', this, '#5899B0')"
       >
         Pre-Construction
       </button>
       <button
         class="tablink"
-        onclick="openPage('Construction', this, '#5899b0')"
+        onclick="openPage('Construction', this, '#5899B0')"
         id="defaultOpen"
       >
         Construction
       </button>
-      <button class="tablink" onclick="openPage('Design Build', this, '#5899b0')">
+      <button
+        class="tablink"
+        onclick="openPage('Design Build', this, '#5899B0')"
+      >
         Design Build
       </button>
       <button
         class="tablink"
-        onclick="openPage('Sustainability', this, '#5899b0')"
+        onclick="openPage('Sustainability', this, '#5899B0')"
       >
         Sustainability
       </button>
-
+      ​
       <div id="Pre-Construction" class="tabcontent">
         <h3>Pre-Construction</h3>
         <p>
@@ -59,7 +66,7 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-
+      ​
       <div id="Construction" class="tabcontent">
         <h3>Construction</h3>
         <p>
@@ -72,7 +79,7 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-
+      ​
       <div id="Design Build" class="tabcontent">
         <h3>Design Build</h3>
         <p>
@@ -85,7 +92,7 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-
+      ​
       <div id="Sustainability" class="tabcontent">
         <h3>Sustainability</h3>
         <p>
@@ -98,7 +105,9 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-    </section>
+
+      <script src="js/index.js"></script>
+    </div>
   </body>
 
   <footer></footer>
