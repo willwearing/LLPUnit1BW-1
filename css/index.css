@@ -164,6 +164,10 @@ html {
 }
 
 /* Style tab links */
+.tab-wrap {
+  display: flex;
+  justify-content: space-between;
+}
 
 .tablink {
   background-color: white;
@@ -181,8 +185,18 @@ html {
 .tabcontent {
   color: black;
   display: none;
-  padding: 100px 20px;
+  padding: 2.5rem 1rem;
   height: 100%;
+}
+
+.tab-flex {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.tax-text-title {
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 /* services css section end */
