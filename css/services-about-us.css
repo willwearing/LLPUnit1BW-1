@@ -163,6 +163,11 @@ html {
   font-family: "Roboto", Arial, sans-serif;
 }
 
+.body-div {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
 /* Style tab links */
 .tab-wrap {
   display: flex;
@@ -205,49 +210,90 @@ html {
 #construction-image-mobile {
   display: none !important;
 }
-#design-build-image-mobile{
+#design-build-image-mobile {
   display: none !important;
 }
-#sustainability-image-mobile{
+#sustainability-image-mobile {
   display: none !important;
 }
 
-
-@media only screen and (max-width: 992px) {
-  .tab-flex-img {
-    display: block;
-    margin: 0 auto;
-    object-fit: cover;
+@media only screen and (max-width: 1160px) {
+  .tablink {
+    font-size: 1.2rem;
   }
-
-  #pre-construction-desktop{
+  #pre-construction-desktop {
     display: none !important;
   }
   #pre-construction-mobile {
     display: block !important;
   }
 
-  #construction-image-desktop{
+  #construction-image-desktop {
     display: none !important;
   }
   #construction-image-mobile {
     display: block !important;
   }
 
-  #design-build-image-desktop{
+  #design-build-image-desktop {
     display: none !important;
   }
-  #design-build-image-mobile{
+  #design-build-image-mobile {
     display: block !important;
   }
 
-
-  #sustainability-image-desktop{
+  #sustainability-image-desktop {
     display: none !important;
   }
-  #sustainability-image-mobile{
+  #sustainability-image-mobile {
     display: block !important;
   }
+}
+
+@media only screen and (max-width: 992px) {
+  .tablink {
+    font-size: 1rem;
+  }
+
+  .tab-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-flex-img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+
+  #pre-construction-desktop {
+    display: none !important;
+  }
+  #pre-construction-mobile {
+    display: block !important;
+  }
+
+  #construction-image-desktop {
+    display: none !important;
+  }
+  #construction-image-mobile {
+    display: block !important;
+  }
+
+  #design-build-image-desktop {
+    display: none !important;
+  }
+  #design-build-image-mobile {
+    display: block !important;
+  }
+
+  #sustainability-image-desktop {
+    display: none !important;
+  }
+  #sustainability-image-mobile {
+    display: block !important;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .tab-wrap {
