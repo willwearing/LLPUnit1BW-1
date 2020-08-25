@@ -10,52 +10,72 @@
 	<![endif]-->
 </head>
 
+<header>
+	<h1>Contact Us</h1>
+</header>
+
 <body>
+	<form>
+		<h2>Get In Touch</h2>
 
-	<h1>Contact</h1>
+		<div id='email-form'>
+			<label for="email">Email address</label>
+			<br>
+			<!-- Checking if user types a valid email address -->
+			<input type="email" id="email" name="email"> 
+			<br>
+			We'll never share your email with anyone else.
+		</div>
 
-	<!-- testing testing -->
-<!-- Contactd Us Content 
-  Contact Us
-  
-Get In Touch
+		<div id='building-form'>
+			<label for="buildings-needs">How many buildings do you need planned?</label>
+			<br>
+			1-5
+		</div>
 
-Email Address
-Enter Email
-We'll never share your email with anyone else.
+		<div id='project-form'>
+			<label for="project-needs">
+				Provide a brief overview of your project needs:</label>
+			<br>
+		</div>
 
-How many buildings do you need planned?
-1-5
+		<div id='select-dot-thing'>
+			I am a small business
+			I am a residential owner
+			I am a corporation
+		</div>
 
-Provide a brief overview of your project needs:
+		<input type='submit'>
+	</form>
 
-I am a small business
-I am a residential owner
-I am a corporation
+	<aside>
+		<h2>Where We Work</h2>
 
-Submit
+		<div id='ny-addr'>
+			<h3>New York</h3>
+			<p>	123 Lane <br>
+				Suite 100 <br>
+				Albany, NY 12345 <br>
+				202 555 0144</p>
+		</div>
 
-Where We Work
+		<div id='fl-addr'>
+			<h3>Florida</h3>
+			<p>	Ocean Drive <br>
+				Suite 201 <br>
+				Orlando, FL 22345 <br>
+				502 555 0144</p>
+		</div>
 
-New York
-123 Lane
-Suite 100
-Albany, NY 12345
-202 555 0144
+		<div id='ca-addr'>
+			<h3>California</h3>
+			<p>	Mountain Street <br>
+				Suite 105 <br>
+				San Diego, CA 22345 <br>
+				702 555 0144</p>
+		</div>
 
-Florida
-Ocean Drive
-Suite 201
-Orlando, FL 22345
-502 555 0144
-
-California
-Mountain Street
-Suite 105
-San Diego, CA 22345
-702 555 0144
-
--->
+	</aside>
 
 	<script src="js/index.js"></script>
 </body>
