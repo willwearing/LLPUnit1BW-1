@@ -1,0 +1,363 @@
+/*  */
+
+/* CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Everything above is CSS reset */
+
+/* General Stylings */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  background-color: #ffffff;
+  color: #222222;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/* .jumbotron-home {
+}
+
+.jumbotron {
+}
+
+nav {
+}
+
+footer {
+} */
+
+/* service.html CSS section start*/
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.body-div {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+/* Style tab links */
+.tab-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tablink {
+  background-color: white;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1%;
+  width: 15%;
+  border: 1px solid black;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 2.5rem 0;
+  height: 100%;
+}
+
+.tab-flex {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.tax-text-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+#pre-construction-mobile {
+  display: none !important;
+}
+#construction-image-mobile {
+  display: none !important;
+}
+#design-build-image-mobile {
+  display: none !important;
+}
+#sustainability-image-mobile {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1160px) {
+  .tablink {
+    font-size: 1.2rem;
+  }
+  #pre-construction-desktop {
+    display: none !important;
+  }
+  #pre-construction-mobile {
+    display: block !important;
+  }
+
+  #construction-image-desktop {
+    display: none !important;
+  }
+  #construction-image-mobile {
+    display: block !important;
+  }
+
+  #design-build-image-desktop {
+    display: none !important;
+  }
+  #design-build-image-mobile {
+    display: block !important;
+  }
+
+  #sustainability-image-desktop {
+    display: none !important;
+  }
+  #sustainability-image-mobile {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .tablink {
+    font-size: 1rem;
+  }
+
+  .tab-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-flex-img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+
+  #pre-construction-desktop {
+    display: none !important;
+  }
+  #pre-construction-mobile {
+    display: block !important;
+  }
+
+  #construction-image-desktop {
+    display: none !important;
+  }
+  #construction-image-mobile {
+    display: block !important;
+  }
+
+  #design-build-image-desktop {
+    display: none !important;
+  }
+  #design-build-image-mobile {
+    display: block !important;
+  }
+
+  #sustainability-image-desktop {
+    display: none !important;
+  }
+  #sustainability-image-mobile {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .tab-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2% 0;
+  }
+
+  .tablink {
+    background-color: white;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1%;
+    width: 100%;
+    border: 1px solid black;
+    margin: 1% 0;
+  }
+
+  .tab-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-flex-img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .tab-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .tablink {
+    background-color: white;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1%;
+    width: 100%;
+    border: 1px solid black;
+    margin: 1% 0;
+  }
+
+  .tab-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tab-flex-img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+}
+
+/* services css section end */
