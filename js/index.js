@@ -1,1 +1,10 @@
-// JS goes here
+// Menu
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " actmenu";
+  } else {
+    x.className = "topnav";
+  }
+}
