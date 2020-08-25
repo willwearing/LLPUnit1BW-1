@@ -15,43 +15,53 @@
 </header>
 
 <body>
-	<form>
+	<form id='contact-pg-form-container'>
 		<h2>Get In Touch</h2>
 
-		<div id='email-form'>
-			<label for="email">Email address</label>
-			<br>
+		<div id='contact-pg-email-form'>
+			<label for="email">Email address</label> <br>
 			<!-- Checking if user types a valid email address -->
-			<input type="email" id="email" name="email"> 
-			<br>
-			We'll never share your email with anyone else.
+			<!-- 'Placeholder' grays out 'Enter email' -->
+			<input type="email" id="email" name="email" placeholder='Enter email'> <br>
+			<p> We'll never share your email with anyone else. </p>
 		</div>
 
-		<div id='building-form'>
-			<label for="buildings-needs">How many buildings do you need planned?</label>
-			<br>
-			1-5
+		<div id='buildings-needed-drop-down'>
+			<label for="buildings-needed">How many buildings do you need planned?</label><br>
+			<select name='buildings-needed' id='buildings-needed'>
+				<option value='1'>1</option>
+				<option value='2-5'>2 - 5</option>
+				<option value='6-10'>6 - 10</option>
+				<option value='11-20'>11 - 20</option>
+				<option value='20+'>20+</option>
+			</select>
 		</div>
 
-		<div id='project-form'>
+		<div id='project-text-form'>
 			<label for="project-needs">
-				Provide a brief overview of your project needs:</label>
-			<br>
+				Provide a brief overview of your project needs:</label><br>
+				<!-- Resize text box area by adjusting the numbers for 'rows','cols'-->			
+			<textarea id='project-needs' name='project needs' rows='6' cols='50'>
+				</textarea>
 		</div>
 
-		<div id='select-dot-thing'>
-			I am a small business
-			I am a residential owner
-			I am a corporation
+		<div id='client-type-radio-buttons'>
+			<!-- Same 'client type' = user can only select one radio button -->
+			<input type='radio' id ='small-business' name='client-type' value='small-business'> 
+			<label for='small-business'>I am a small business</label><br>
+			<input type='radio' id ='residential-owner' name='client-type' value='residential-owner'> 
+			<label for='residential-owner'>I am a residential owner</label><br>
+			<input type='radio' id ='corporation' name='client-type' value='corporation'> 
+			<label for='corporation'>I am a corporation</label><br>
 		</div>
 
-		<input type='submit'>
+		<input type='submit' value='Submit'>
 	</form>
 
 	<aside>
 		<h2>Where We Work</h2>
 
-		<div id='ny-addr'>
+		<div id='contact-pg-ny-addr'>
 			<h3>New York</h3>
 			<p>	123 Lane <br>
 				Suite 100 <br>
@@ -59,7 +69,7 @@
 				202 555 0144</p>
 		</div>
 
-		<div id='fl-addr'>
+		<div id='contact-pg-fl-addr'>
 			<h3>Florida</h3>
 			<p>	Ocean Drive <br>
 				Suite 201 <br>
@@ -67,7 +77,7 @@
 				502 555 0144</p>
 		</div>
 
-		<div id='ca-addr'>
+		<div id='contact-pg-ca-addr'>
 			<h3>California</h3>
 			<p>	Mountain Street <br>
 				Suite 105 <br>
