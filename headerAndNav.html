@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="./css/headerFooter.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div>
-                <h3>S&J</h3>
-            </div>
-            <div>
-                <img src="./img/nav-hamburger.png" alt="Menu Button">
-            </div>
-        </nav>
-        <div class="jumbotron">
-            <h1></h1>
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <h2 class="active h2np">S&J</h2>
+          <a class="linkNP" href="./index.html">Home</a>
+          <a class="linkNP" href="./services.html">Services</a>
+          <a class="linkNP" href="./projects.html">Projects</a>
+          <a class="linkNP" href="./meet-the-team.html">Meet The Team</a>
+          <a class="linkNP" href="./about-us.html">About Us</a>
+          <a class="linkNP" id="linkBottom" href="./contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img class="hambImg" src="img/nav-hamburger.png" alt="" />
+          </a>
         </div>
-        <footer>
-            <div>
-                <form action="">
-                    <h2>Interested in starting a project? <br>Let's talk:</h2>
-                    <input id='email-footer-input' type="Email">
-                    <p></p>
-                </form>
-                <div>
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-            </div>
-            <div>
-                <p></p>
-            </div>
-        </footer>
+      </nav>
+      <div class="container">
+        <img class="jumbotron-home" src="/img/home/home-jumbotron.png" />
+        <div id="jumboTronHeader" class="bottomleft">Integrity,<br />Excellence,<br />Progress.</div>
+      </div>
     </header>
-</body>
+    <footer>
+      
+          <form action="">
+            <h3 class=".h3NP">Interested in starting a project? <br />Let's talk:</h3>
+            <input id="email-footer-input" type="Email" />
+            
+            <p>We'll never share your email with anyone else.</p>
+          </form>
+
+          <div>
+            <h3 class="h3NP">
+              New York
+            </h3>
+            <p>123 Lane<br>Suite 100<br>Albany, NY 12345<br>202 555 0144</p>
+          </div>
+          <div>
+            <h3 class="h3NP">
+                Florida
+            </h3>
+            <p>Ocean Drive<br>Suite 201<br>Orlando, FL 22345<br>502 555 0144</p>
+          </div>
+          <div>
+              <h3 class="h3NP">
+                California
+              </h3>
+              <p>Mountain Street<br>Suite 105<br>San Diego, CA 22345<br>702 555 0144</p>
+          </div>
+        
+      
+        <p></p>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
 </html>

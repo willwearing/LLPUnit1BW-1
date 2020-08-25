@@ -1,3 +1,4 @@
+
 // services js section start
 function openPage(pageName, elmnt, color) {
   var i, tabcontent, tablinks;
@@ -17,3 +18,15 @@ function openPage(pageName, elmnt, color) {
 document.getElementById("defaultOpen").click();
 
 // secrives js section end
+
+// Menu
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " actmenu";
+  } else {
+    x.className = "topnav";
+  }
+}
+

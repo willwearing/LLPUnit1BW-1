@@ -141,17 +141,115 @@ body {
   font-family: "Roboto", Arial, sans-serif;
 }
 
-/* .jumbotron-home {
+/* HeaderFooter Styles */
+.logoNP {
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: #ffffff;
 }
 
 .jumbotron {
-}
-
-nav {
+  background-image: url("/img/home/home-jumbotron.png");
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: none;
+  background-size: cover;
 }
 
 footer {
-} */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background-color: #828282;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  padding: 4% 0;
+}
+
+.h3NP {
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+nav {
+  min-height: 3rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #99a5b0;
+}
+
+.topnav a {
+  float: left;
+  display: none;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-weight: Bold;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.topnav a.active {
+  font-weight: Bold;
+  line-height: 8.5rem;
+  color: #ffffff;
+}
+
+.topnav .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+.topnav.actmenu a {
+  float: none;
+  display: block;
+  text-align: center;
+}
+
+.h2np {
+  color: white;
+  font-size: 2.4rem;
+  margin: 1rem 15rem;
+}
+
+.hambImg {
+  font-size: 0px;
+  line-height: 0rem !important;
+  margin-top: 1rem;
+  margin-right: 15rem;
+}
+
+.linkNP {
+  padding: 5rem;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 35rem;
+  left: 15rem;
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.bottemleftHide {
+  display: none;
+}
+
+#linkBottom {
+  padding-bottom: 13rem;
+}
+
+/* End HeaderFooter */
 
 /* service.html CSS section start*/
 
@@ -166,6 +264,10 @@ html {
 .body-div {
   margin-left: 15rem;
   margin-right: 15rem;
+}
+
+.services-description-text-top {
+  margin: 4rem 0;
 }
 
 /* Style tab links */
@@ -248,6 +350,15 @@ html {
   #sustainability-image-mobile {
     display: block !important;
   }
+  .bottomleft {
+    position: absolute;
+    bottom: 40rem;
+    left: 15rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: bold;
+    color: white;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -298,6 +409,16 @@ html {
   #sustainability-image-mobile {
     display: block !important;
   }
+
+  .bottomleft {
+    position: absolute;
+    bottom: 45rem;
+    left: 15rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: bold;
+    color: white;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -330,6 +451,15 @@ html {
     display: block;
     margin: 0 auto;
     object-fit: cover;
+  }
+  .bottomleft {
+    position: absolute;
+    bottom: 50rem;
+    left: 15rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: bold;
+    color: white;
   }
 }
 
@@ -367,6 +497,15 @@ html {
     display: block;
     margin: 0 auto;
     object-fit: cover;
+  }
+  .bottomleft {
+    position: absolute;
+    bottom: 57rem;
+    left: 15rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: bold;
+    color: white;
   }
 }
 
