@@ -245,4 +245,7 @@ footer {
 
 /* Mobile 
 - Use Jumbotron-mobile pic 
-- flex-direction: column on #contact-pg */
+- flex-direction: column on #contact-pg 
+- #submit-button{
+  width: 100%;
+} */
