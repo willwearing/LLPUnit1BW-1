@@ -1,0 +1,251 @@
+/*  */
+
+
+/* CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Everything above is CSS reset */
+
+/* General Stylings */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  background-color: #ffffff;
+  color: #222222;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.jumbotron-home {
+}
+
+.jumbotron {
+    
+}
+
+nav {
+}
+
+footer {
+}
+
+
+
+/* CONTACT PAGE STYLING - TLT */
+
+/* (Assumed redundant parts) */
+/* h1{
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  color: #ffffff
+} */
+/* h2{
+  font-weight:bold;
+  font-size:28px;
+  color: #222222;
+} */
+
+/* STUFF TO FIX:
+  - Align text fields
+*/
+
+#contact-pg{
+  display:flex;
+}
+
+/* Contact Page - Body - Left Side */
+
+#contact-pg-form-container{
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+  line-height: 2; 
+}
+
+#contact-pg-email-form, #buildings-needed-drop-down, 
+#project-text-form{
+  margin-bottom: 5%;
+}
+
+#contact-pg-email{
+  width: 100%;
+  line-height:2;
+}
+
+#contact-pg-email-form p{
+  color:gray;
+  font-size: 80%;
+}
+
+#buildings-needed{
+  width: 100%;
+  font:inherit;
+}
+
+#project-needs{
+  width:100%;
+}
+
+#client-type-radio-buttons{
+  line-height: 1.8;
+  margin-bottom: 8%;
+}
+
+#submit-button{
+  width: 30%;
+  padding: 2.5% 0;
+  font-size:inherit;
+  background:#ffffff;
+}
+
+/* Contact Page - Body - Right Side */
+#contact-pg-addrs{
+  margin: 0 10% 10% 10%;
+}
+
+#contact-pg-addrs h2{
+  margin-bottom: 20%;
+}
+
+#contact-pg-addrs h3{
+  font-weight:bold;
+  font-size: 20px;
+}
+
+#contact-pg-ny-addr, #contact-pg-fl-addr, #contact-pg-ca-addr{
+  margin: 20% 0%;
+}
+
+/* Mobile 
+- Use Jumbotron-mobile pic 
+- flex-direction: column on #contact-pg 
+- #submit-button{
+  width: 100%;
+} */
