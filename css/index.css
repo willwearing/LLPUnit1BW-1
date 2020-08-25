@@ -185,7 +185,7 @@ html {
 .tabcontent {
   color: black;
   display: none;
-  padding: 2.5rem 1rem;
+  padding: 2.5rem 0;
   height: 100%;
 }
 
@@ -198,6 +198,56 @@ html {
   font-weight: bold;
   font-size: 1.8rem;
 }
+
+#pre-construction-mobile {
+  display: none !important;
+}
+#construction-image-mobile {
+  display: none !important;
+}
+#design-build-image-mobile{
+  display: none !important;
+}
+#sustainability-image-mobile{
+  display: none !important;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .tab-flex-img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+
+  #pre-construction-desktop{
+    display: none !important;
+  }
+  #pre-construction-mobile {
+    display: block !important;
+  }
+
+  #construction-image-desktop{
+    display: none !important;
+  }
+  #construction-image-mobile {
+    display: block !important;
+  }
+
+  #design-build-image-desktop{
+    display: none !important;
+  }
+  #design-build-image-mobile{
+    display: block !important;
+  }
+
+
+  #sustainability-image-desktop{
+    display: none !important;
+  }
+  #sustainability-image-mobile{
+    display: block !important;
+  }
 
 @media only screen and (max-width: 800px) {
   .tab-wrap {
