@@ -334,6 +334,7 @@ html {
 
 .about-text-main-section-wrap {
   display: flex;
+  justify-content: center;
 }
 
 .title-of-paragraph-about {
@@ -360,8 +361,8 @@ html {
 }
 
 .images-about {
-  height: 30rem;
-  width: auto;
+  width: 65vh;
+  height: auto;
   margin: 2rem 0;
 }
 
@@ -481,6 +482,12 @@ html {
     margin: 2% 0;
   }
 
+  .about-text-main-section-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .tablink {
     background-color: white;
     color: black;
@@ -519,6 +526,10 @@ html {
   .body-div {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .mission-title {
+    font-size: 4rem;
   }
 
   .tab-wrap {
