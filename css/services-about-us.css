@@ -319,6 +319,58 @@ html {
   display: none !important;
 }
 
+/* about us css section starts */
+
+.mission-title {
+  font-size: 5rem;
+  line-height: 5rem;
+  margin: 2rem 0;
+}
+
+.mission-text {
+  margin: 2rem 0;
+  margin-bottom: 7rem;
+}
+
+.about-text-main-section-wrap {
+  display: flex;
+}
+
+.title-of-paragraph-about {
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.paragraphs-about {
+  margin: 0 2rem;
+  height: auto;
+  width: 45rem;
+}
+
+.first-paragraph-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-paragraph-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-about {
+  height: 30rem;
+  width: auto;
+  margin: 2rem 0;
+}
+
+.break-about {
+  margin-bottom: 7rem;
+}
+
+/* about us css section ends */
+
 @media only screen and (max-width: 1160px) {
   .tablink {
     font-size: 1.2rem;
