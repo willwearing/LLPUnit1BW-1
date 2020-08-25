@@ -154,3 +154,95 @@ nav {
 
 footer {
 }
+
+
+
+/* CONTACT PAGE STYLING - TLT */
+
+/* (Assumed redundant parts) */
+/* h1{
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  color: #ffffff
+} */
+/* h2{
+  font-weight:bold;
+  font-size:28px;
+  color: #222222;
+} */
+
+/* STUFF TO FIX:
+  - Align text fields
+*/
+
+#contact-pg{
+  display:flex;
+}
+
+/* Contact Page - Body - Left Side */
+
+#contact-pg-form-container{
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+  line-height: 2; 
+}
+
+#contact-pg-email-form, #buildings-needed-drop-down, 
+#project-text-form{
+  margin-bottom: 5%;
+}
+
+#contact-pg-email{
+  width: 100%;
+  line-height:2;
+}
+
+#contact-pg-email-form p{
+  color:gray;
+  font-size: 80%;
+}
+
+#buildings-needed{
+  width: 100%;
+  font:inherit;
+}
+
+#project-needs{
+  width:100%;
+}
+
+#client-type-radio-buttons{
+  line-height: 1.8;
+  margin-bottom: 8%;
+}
+
+#submit-button{
+  width: 30%;
+  padding: 2.5% 0;
+  font-size:inherit;
+  background:#ffffff;
+}
+
+/* Contact Page - Body - Right Side */
+#contact-pg-addrs{
+  margin: 0 10% 10% 10%;
+}
+
+#contact-pg-addrs h2{
+  margin-bottom: 20%;
+}
+
+#contact-pg-addrs h3{
+  font-weight:bold;
+  font-size: 20px;
+}
+
+#contact-pg-ny-addr, #contact-pg-fl-addr, #contact-pg-ca-addr{
+  margin: 20% 0%;
+}
+
+/* Mobile 
+- Use Jumbotron-mobile pic 
+- flex-direction: column on #contact-pg */
