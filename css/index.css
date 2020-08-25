@@ -147,7 +147,8 @@ body {
 
 .jumbotron-home {
   background-image: url("/img/home/home-jumbotron.png");
-  min-height: 115vh;
+  height: auto;
+  width: 100%;
   background-repeat: no-repeat;
   background-attachment: none;
   background-size: cover;
@@ -174,11 +175,10 @@ nav {
   display: none;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-weight: Bold;
-  line-height: 8.5rem;
   color: #ffffff;
+  font-size: 4rem;
 }
 
 .topnav a.active {
@@ -211,5 +211,27 @@ h2 {
 }
 
 .hambImg {
-  margin: 0 15rem;
+  font-size: 0px;
+  line-height: 0rem !important;
+  margin-top: 1rem;
+  margin-right: 15rem;
 }
+
+  .linkNP {
+    padding: 5rem;
+  }
+
+  h1 {
+    min-height: 90vh;
+    text-align: center;
+  }
+
+  .bottomleft {
+    position: absolute;
+    bottom: 3rem;
+    left: 10rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: bold;
+    color: white;
+  }
