@@ -203,6 +203,8 @@ html {
   .tab-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2% 0;
   }
 
   .tablink {
@@ -215,6 +217,7 @@ html {
     padding: 1%;
     width: 100%;
     border: 1px solid black;
+    margin: 1% 0;
   }
 
   .tab-flex {
@@ -233,6 +236,7 @@ html {
   .tab-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .tablink {
@@ -245,6 +249,7 @@ html {
     padding: 1%;
     width: 100%;
     border: 1px solid black;
+    margin: 1% 0;
   }
 
   .tab-flex {
