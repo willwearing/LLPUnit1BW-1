@@ -1,4 +1,3 @@
-
 // services js section start
 function openPage(pageName, elmnt, color) {
   var i, tabcontent, tablinks;
@@ -23,10 +22,12 @@ document.getElementById("defaultOpen").click();
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
+  var y = document.getElementById("jumboTronHeader");
   if (x.className === "topnav") {
     x.className += " actmenu";
+    y.className = "bottomleftHide";
   } else {
     x.className = "topnav";
+    y.className = "bottomleft";
   }
 }
-
