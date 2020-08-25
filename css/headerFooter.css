@@ -153,9 +153,6 @@ body {
   background-size: cover;
 }
 
-.jumbotron {
-}
-
 footer {
   display: flex;
   flex-flow: row nowrap;
