@@ -180,6 +180,7 @@ nav {
 .topnav {
   overflow: hidden;
   background-color: #99a5b0;
+  /* z-index: 1; */
 }
 
 .topnav a {
