@@ -1,8 +1,5 @@
-/*  */
-
-
 /* CSS Reset */
-
+/* #region */
 html,
 body,
 div,
@@ -127,9 +124,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* Everything above is CSS reset */
+/* #endregion */
 
-/* General Stylings */
+
+/* General Stylings (triplet programmed) */
 html {
   font-size: 62.5%;
 }
@@ -142,50 +140,150 @@ body {
   font-family: "Roboto", Arial, sans-serif;
 }
 
-.jumbotron-home {
+/* Jumbotron, Header, Footer, Nav Code by N.Patterson */
+/* #region */
+.jumbotron{
+  background-image: url("/img/contact/contact-jumbotron.png");
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: none;
+  background-size: cover;
 }
 
-.jumbotron {
-    
+.h3NP {
+  font-size: 2rem;
+  line-height: 2.6rem;
 }
 
 nav {
+  min-height: 3rem;
 }
 
 footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background-color: #828282;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  padding: 4% 0;
 }
 
 
+.topnav {
+  overflow: hidden;
+  background-color: #99a5b0;
+}
 
-/* CONTACT PAGE STYLING - TLT */
+.topnav a {
+  float: left;
+  display: none;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-weight: Bold;
+  color: #ffffff;
+  font-size: 4rem;
+}
 
-/* (Assumed redundant parts) */
-/* h1{
+.topnav a.active {
+  font-weight: Bold;
+  line-height: 8.5rem;
+  color: #ffffff;
+}
+
+.topnav .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+.topnav.actmenu a {
+  float: none;
+  display: block;
+  text-align: center;
+}
+
+.h2np {
+  color: white;
+  font-size: 2.4rem;
+  margin: 1rem 15rem;
+}
+
+.hambImg {
+  font-size: 0px;
+  line-height: 0rem !important;
+  margin-top: 1rem;
+  margin-right: 15rem;
+}
+
+.linkNP {
+  padding: 5rem;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 13rem;
+  left: 15rem;
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.bottemleftHide {
+  display: none;
+}
+
+#linkBottom {
+  padding-bottom: 13rem;
+}
+
+/* #endregion */
+
+
+/* CONTACT PAGE STYLING by TL Tsay */
+
+/* Whole Contact Page */
+/*#region*/
+h1{
   font-weight: bold;
   font-size: 64px;
   line-height: 75px;
   color: #ffffff
-} */
-/* h2{
+}
+
+h2{
   font-weight:bold;
   font-size:28px;
   color: #222222;
+}
+
+/* header{
+  height: 80%;
 } */
 
-/* STUFF TO FIX:
-  - Align text fields
-*/
+.jumbotron{
+  background-position: center;
+}
 
 #contact-pg{
   display:flex;
+  /* max-width: 100%; */
+  /* margin: 5% 15rem; --> old margin-ing*/
+  margin: 5% 10%;
 }
+/* #endregion */
 
 /* Contact Page - Body - Left Side */
-
+/*#region*/
 #contact-pg-form-container{
-  display:flex;
-  flex-direction:column;
-  width: 50%;
+  width: 60%;
   line-height: 2; 
 }
 
@@ -195,7 +293,7 @@ footer {
 }
 
 #contact-pg-email{
-  width: 100%;
+  width: 80%;
   line-height:2;
 }
 
@@ -205,12 +303,12 @@ footer {
 }
 
 #buildings-needed{
-  width: 100%;
+  width: 81%; /*80% is off for some reason */
   font:inherit;
 }
 
 #project-needs{
-  width:100%;
+  width:80%;
 }
 
 #client-type-radio-buttons{
@@ -225,9 +323,13 @@ footer {
   background:#ffffff;
 }
 
+/* #endregion */
+
 /* Contact Page - Body - Right Side */
+/* #region */
+
 #contact-pg-addrs{
-  margin: 0 10% 10% 10%;
+  margin: 2.5% 5%;
 }
 
 #contact-pg-addrs h2{
@@ -242,10 +344,63 @@ footer {
 #contact-pg-ny-addr, #contact-pg-fl-addr, #contact-pg-ca-addr{
   margin: 20% 0%;
 }
+/* #endregion */
 
-/* Mobile 
-- Use Jumbotron-mobile pic 
-- flex-direction: column on #contact-pg 
-- #submit-button{
-  width: 100%;
-} */
+/* Mobile version - 500px */
+@media (max-width: 500px){
+  .jumbotron{
+    background-image: url("/img/contact/contact-mobile-jumbotron.png");
+  }
+
+  #contact-pg{
+      display:flex;
+      flex-direction:column;
+  }
+
+  #contact-pg-form-container, #contact-pg-email, #buildings-needed, #project-needs, #submit-button{
+    width: 100%;
+  }
+
+  #contact-pg-addrs{
+    margin-top: 15%;
+  }
+
+  #contact-pg-addrs h2{
+    margin-bottom: 10%;
+  }
+
+  #contact-pg-ny-addr, #contact-pg-fl-addr, #contact-pg-ca-addr{
+    margin: 10% 0%;
+  }
+};
+
+/* CONTACT PAGE STYLING by TL Tsay - End */
+
+/* PROJECT PAGE STYLING by TL Tsay */
+#project-pg{
+  display:flex;
+  flex-direction:column;
+}
+#projects-pg h2, h3{
+  color:white;
+}
+
+#projects-pg h2{
+  font-size: 4rem;
+}
+
+#projects-pg section{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+#projects-pg h2{
+  text-decoration: fuchsia underline wavy;
+}
+
+/* Styles for phone at 500px */
+/* @media (max-width: 500px){ */
+/* PROJECT PAGE STYLING by TL Tsay - End */

@@ -9,12 +9,32 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-
+<body>
+<!-- Header Code by N.Patterson -->
+<!-- Edits by TLTsay denoted -->
 <header>
-	<!-- <h1>Contact Us</h1><br> -->
+	<nav>
+        <div class="topnav" id="myTopnav">
+          <h2 class="active h2np">S&J</h2>
+          <a class="linkNP" href="./index.html">Home</a>
+          <a class="linkNP" href="./services.html">Services</a>
+          <a class="linkNP" href="./projects.html">Projects</a>
+          <a class="linkNP" href="./meet-the-team.html">Meet The Team</a>
+          <a class="linkNP" href="./about-us.html">About Us</a>
+          <a class="linkNP" id="linkBottom" href="./contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img class="hambImg" src="img/nav-hamburger.png" alt="" />
+          </a>
+        </div>
+	  </nav>
+	<!-- TLTsay edits -->
+	<div class="jumbotron"> 
+		<h1>Contact Us</h1>
+	</div>
 </header>
 
-<body id="contact-pg">
+<!-- Contact Page HTML by TL Tsay -->
+<section id="contact-pg">
 	<form id='contact-pg-form-container'>
 		<h2>Get In Touch</h2>
 
@@ -40,18 +60,18 @@
 		<div id='project-text-form'>
 			<label for="project-needs">
 				Provide a brief overview of your project needs:</label><br>
-				<!-- Resize text box area by adjusting the numbers for 'rows','cols=60'-->			
+				<!-- Resize text box area by adjusting the numbers for 'rows','cols=60'-->
 			<textarea id='project-needs' name='project needs' rows='6'>
 				</textarea>
 		</div>
 
 		<div id='client-type-radio-buttons'>
 			<!-- Same 'client type' = user can only select one radio button -->
-			<input type='radio' id ='small-business' name='client-type' value='small-business'> 
+			<input type='radio' id ='small-business' name='client-type' value='small-business'>
 			<label for='small-business'>I am a small business</label><br>
-			<input type='radio' id ='residential-owner' name='client-type' value='residential-owner'> 
+			<input type='radio' id ='residential-owner' name='client-type' value='residential-owner'>
 			<label for='residential-owner'>I am a residential owner</label><br>
-			<input type='radio' id ='corporation' name='client-type' value='corporation'> 
+			<input type='radio' id ='corporation' name='client-type' value='corporation'>
 			<label for='corporation'>I am a corporation</label><br>
 		</div>
 
@@ -87,5 +107,41 @@
 	</aside>
 
 	<script src="js/index.js"></script>
+</section>
+
+<!-- Footer and Javascript by N.Patterson -->
+<footer>
+
+	<form action="">
+	  <h3 class=".h3NP">Interested in starting a project? <br />Let's talk:</h3>
+	  <input id="email-footer-input" type="Email" />
+
+	  <p>We'll never share your email with anyone else.</p>
+	</form>
+
+	<div>
+	  <h3 class="h3NP">
+		New York
+	  </h3>
+	  <p>123 Lane<br>Suite 100<br>Albany, NY 12345<br>202 555 0144</p>
+	</div>
+	<div>
+	  <h3 class="h3NP">
+		  Florida
+	  </h3>
+	  <p>Ocean Drive<br>Suite 201<br>Orlando, FL 22345<br>502 555 0144</p>
+	</div>
+	<div>
+		<h3 class="h3NP">
+		  California
+		</h3>
+		<p>Mountain Street<br>Suite 105<br>San Diego, CA 22345<br>702 555 0144</p>
+	</div>
+
+
+  <p></p>
+</div>
+</footer>
 </body>
+<script src="./js/index.js"></script>
 </html>
