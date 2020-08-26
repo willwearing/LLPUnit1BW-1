@@ -145,11 +145,8 @@ body {
 }
 
 .jumbotron-home {
-  background-image: url("/img/home/home-jumbotron.png");
-  height: auto;
+  height: 30vh;
   width: 100%;
-  background-repeat: no-repeat;
-  background-attachment: none;
   background-size: cover;
 }
 
@@ -247,15 +244,13 @@ nav {
 
 /* End HeaderFooter */
 
-/* Flex Layouts */
-
 section {
   margin: 5rem 15rem 5rem 15rem;
 }
 
 .container1 {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
   text-align: center;
 }
@@ -265,6 +260,9 @@ section {
 .container1 div {
   width: 50%;
   margin: 0 auto;
+}
+.container1 div div {
+  width: 90%;
 }
 .container1 div div p {
   margin: 0 auto;
@@ -279,26 +277,7 @@ section {
   max-width: 50%;
   padding: 1%;
 }
-.container2 {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-}
-.container2 div {
-  text-align: center;
-  margin: 0 auto;
-}
-.container2 div img {
-  width: 100% !important;
-  padding: 5rem 0 0 0;
-}
-.container2 div p {
-  width: 50%;
-  margin: 0 auto;
-  text-align: left;
-  font-size: 1.8rem;
-  line-height: 3rem;
-}
+
 .cardText {
   padding-top: 5%;
 }
@@ -350,18 +329,4 @@ button {
   width: 40%;
   margin: 0 auto;
   float: left;
-}
-
-@media only screen and (max-width: 800px) {
-}
-body {
-  width: 100%;
-}
-.container1 {
-  flex-flow: column wrap;
-}
-.container1 div {
-  width: 100%;
-}
-@media only screen and (max-width: 500px) {
 }
