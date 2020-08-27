@@ -146,10 +146,9 @@ body {
 
 .jumbotron-home {
   background-image: url("/img/home/home-jumbotron.png");
-  height: auto;
+  height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
-  background-attachment: none;
   background-size: cover;
 }
 
@@ -228,12 +227,15 @@ nav {
 }
 
 .bottomleft {
-  position: absolute;
-  bottom: 13rem;
-  left: 15rem;
-  font-size: 4rem;
-  line-height: 5rem;
-  font-weight: bold;
+  z-index: 9;
+  height: auto;
+  width: 20%;
+  left: 10%;
+  top: 70%;
+  position: relative;
+  padding-bottom: 2%;
+  font-size: 3rem;
+  line-height: 3rem;
   color: white;
 }
 
