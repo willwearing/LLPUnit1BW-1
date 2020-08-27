@@ -180,6 +180,7 @@ nav {
 .topnav {
   overflow: hidden;
   background-color: #99a5b0;
+  /* z-index: 1; */
 }
 
 .topnav a {
@@ -231,14 +232,21 @@ nav {
   padding: 5rem;
 }
 
+.container-about{
+  background: url('/img/services/services-jumbotron.png') no-repeat;
+  background-size: 100% 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .bottomleft {
-  position: absolute;
-  bottom: 35rem;
-  left: 15rem;
   font-size: 4rem;
   line-height: 5rem;
   font-weight: bold;
   color: white;
+  margin-left: 17vh;
+  margin-bottom: 3%;
 }
 
 .bottemleftHide {
@@ -403,7 +411,7 @@ html {
   #sustainability-image-mobile {
     display: block !important;
   }
-  .bottomleft {
+  /* .bottomleft {
     position: absolute;
     bottom: 40rem;
     left: 15rem;
@@ -411,7 +419,7 @@ html {
     line-height: 5rem;
     font-weight: bold;
     color: white;
-  }
+  } */
 }
 
 @media only screen and (max-width: 992px) {
@@ -463,7 +471,7 @@ html {
     display: block !important;
   }
 
-  .bottomleft {
+  /* .bottomleft {
     position: absolute;
     bottom: 45rem;
     left: 15rem;
@@ -471,7 +479,7 @@ html {
     line-height: 5rem;
     font-weight: bold;
     color: white;
-  }
+  } */
 }
 
 @media only screen and (max-width: 800px) {
@@ -511,7 +519,7 @@ html {
     margin: 0 auto;
     object-fit: cover;
   }
-  .bottomleft {
+  /* .bottomleft {
     position: absolute;
     bottom: 50rem;
     left: 15rem;
@@ -519,7 +527,7 @@ html {
     line-height: 5rem;
     font-weight: bold;
     color: white;
-  }
+  } */
 }
 
 @media only screen and (max-width: 480px) {
@@ -561,7 +569,7 @@ html {
     margin: 0 auto;
     object-fit: cover;
   }
-  .bottomleft {
+  /* .bottomleft {
     position: absolute;
     bottom: 57rem;
     left: 15rem;
@@ -569,7 +577,7 @@ html {
     line-height: 5rem;
     font-weight: bold;
     color: white;
-  }
+  } */
 }
 
 /* services css section end */
