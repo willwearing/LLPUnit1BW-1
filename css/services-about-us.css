@@ -483,6 +483,16 @@ html {
 }
 
 @media only screen and (max-width: 800px) {
+  .hambImg {
+    font-size: 0px;
+    line-height: 0rem !important;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  .h2np {
+    margin-left: 3%;
+  }
+
   .tab-wrap {
     display: flex;
     flex-direction: column;
@@ -536,6 +546,16 @@ html {
   .body-div {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .hambImg {
+    font-size: 0px;
+    line-height: 0rem !important;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  .h2np {
+    margin-left: 3%;
   }
 
   .mission-title {
