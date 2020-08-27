@@ -264,18 +264,12 @@ h2{
   color: #222222;
 }
 
-/* header{
-  height: 80%;
-} */
-
 .jumbotron{
   background-position: center;
 }
 
 #contact-pg{
   display:flex;
-  /* max-width: 100%; */
-  /* margin: 5% 15rem; --> old margin-ing*/
   margin: 5% 10%;
 }
 /* #endregion */
