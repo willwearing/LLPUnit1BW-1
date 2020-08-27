@@ -142,22 +142,10 @@ body {
 
 /* Jumbotron, Header, Footer, Nav Code by N.Patterson */
 /* #region */
-.jumbotron{
-  background-image: url("/img/contact/contact-jumbotron.png");
-  height: auto;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-attachment: none;
-  background-size: cover;
-}
-
-.h3NP {
-  font-size: 2rem;
-  line-height: 2.6rem;
-}
-
-nav {
-  min-height: 3rem;
+.logoNP {
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: #ffffff;
 }
 
 footer {
@@ -171,6 +159,14 @@ footer {
   padding: 4% 0;
 }
 
+.h3NP {
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+nav {
+  min-height: 3rem;
+}
 
 .topnav {
   overflow: hidden;
@@ -222,18 +218,49 @@ footer {
   margin-right: 15rem;
 }
 
+.hambImg {
+  font-size: 0px;
+  line-height: 0rem !important;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.h2np {
+  margin-left: 3%;
+}
+
 .linkNP {
   padding: 5rem;
 }
-
+/* 
 .bottomleft {
-  position: absolute;
-  bottom: 13rem;
-  left: 15rem;
+  z-index: 9;
+  height: auto;
+  width: 20%;
+  left: 10%;
+  top: 60%;
+  position: relative;
+  padding-bottom: 2%;
+  font-size: 4rem;
+  line-height: 2rem;
+  color: white;
+} */
+
+/* Code by W.Wearing */
+.container-contact{
+  background: url('/img/contact/contact-jumbotron.png') no-repeat;
+  background-size: 100% 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* Code by W.Wearing */
+.bottomleft {
   font-size: 4rem;
   line-height: 5rem;
   font-weight: bold;
   color: white;
+  margin-left: 17vh;
+  margin-bottom: 3%;
 }
 
 .bottemleftHide {
@@ -243,7 +270,6 @@ footer {
 #linkBottom {
   padding-bottom: 13rem;
 }
-
 /* #endregion */
 
 
@@ -366,6 +392,29 @@ h2{
   #contact-pg-ny-addr, #contact-pg-fl-addr, #contact-pg-ca-addr{
     margin: 10% 0%;
   }
+
+  .bottomleft {
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 5vh;
+    margin-bottom: 3%;
+  }
+
+  /* Footer Mobile by N.Patterson */
+  footer {
+    flex-flow: column nowrap;
+  }
+  footer form {
+    padding-bottom: 4%;
+    padding-left: 1%;
+  }
+  footer div {
+    padding-bottom: 4%;
+    padding-left: 1%;
+  }
+
 };
 
 /* CONTACT PAGE STYLING by TL Tsay - End */
@@ -400,32 +449,21 @@ h2{
   text-align: center;
 }
 
-/*  TO DO
-move maybe
-Take inspiration from html5up 
-*/
-
 #angry-cat{
-background-position-y: 100%;
+  background-position-y: 100%;
 }
 
 #cylinder-box{
   background-position-y: 70%;
 }
 
-/* Other section names
+/* Other section names (for reference)
 #box-buildings
 #boxes-buildings
 #cylinder
 #apocalypse
 */
 
-.bottom_aligner {
-  display: inline-block;
-  height: 60%;
-  vertical-align: bottom;
-  width: 0px;
-}
 
 /* No need for separate styles for mobile */
 
