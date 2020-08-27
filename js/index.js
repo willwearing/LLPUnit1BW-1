@@ -22,15 +22,12 @@ document.getElementById("defaultOpen").click();
 
 function myFunction() {
   var x = document.getElementById("myTopnav");
-  var y = document.getElementById("jumboTronHeader");
   var z = document.getElementById("hamImgID");
   if (x.className === "topnav") {
     x.className += " actmenu";
-    y.className = "bottomleftHide";
     z.src = "img/nav-hamburger-close.png";
   } else {
     x.className = "topnav";
-    y.className = "bottomleft";
     z.src = "img/nav-hamburger.png";
   }
 }

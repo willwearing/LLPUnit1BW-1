@@ -161,6 +161,13 @@ footer {
   padding: 4% 0;
 }
 
+.jumbotron-home {
+  background-image: url("/img/meetTheTeam/the-town.png");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .h3NP {
   font-size: 2rem;
   line-height: 2.6rem;
