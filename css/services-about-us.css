@@ -232,8 +232,8 @@ nav {
   padding: 5rem;
 }
 
-.container-about{
-  background: url('/img/services/services-jumbotron.png') no-repeat;
+.container-about {
+  background: url("/img/services/services-jumbotron.png") no-repeat;
   background-size: 100% 100%;
   height: 25rem;
   display: flex;
@@ -519,15 +519,17 @@ html {
     margin: 0 auto;
     object-fit: cover;
   }
-  /* .bottomleft {
-    position: absolute;
-    bottom: 50rem;
-    left: 15rem;
-    font-size: 4rem;
-    line-height: 5rem;
-    font-weight: bold;
-    color: white;
-  } */
+  footer {
+    flex-flow: column nowrap;
+  }
+  footer form {
+    padding-bottom: 4%;
+    padding-left: 1%;
+  }
+  footer div {
+    padding-bottom: 4%;
+    padding-left: 1%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -569,15 +571,17 @@ html {
     margin: 0 auto;
     object-fit: cover;
   }
-  /* .bottomleft {
-    position: absolute;
-    bottom: 57rem;
-    left: 15rem;
-    font-size: 4rem;
-    line-height: 5rem;
-    font-weight: bold;
-    color: white;
-  } */
+  footer {
+    flex-flow: column nowrap;
+  }
+  footer form {
+    padding-bottom: 4%;
+    padding-left: 1%;
+  }
+  footer div {
+    padding-bottom: 4%;
+    padding-left: 1%;
+  }
 }
 
 /* services css section end */
