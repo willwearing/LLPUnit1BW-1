@@ -1,24 +1,24 @@
 # This is a Lambda Build Week Project - Architecture Firm
 
-#### Deployed App: 
+### Deployed App: 
 
-#### Key Takeaways: 
+### Key Takeaways: 
 
-#### Project Brief: 
+### Project Brief: 
 
 
 Website for Architecture Firm using vanilla web technologies. Responsive at desktop and mobile.
 
-##### Developers:
+#### Developers:
 
 Front-End: @willwearing
 Front-End: @tzonglian
 Front-End: @odst0016
 
-##### Purpose
+#### Purpose
 
 This project was built to demonstrate mastery of the technologies that have been presented and taught to us at Lambda School.
 
-##### License
+#### License
 
 M.I.T. OpenSource feel free to fork modify and use however you would like.
