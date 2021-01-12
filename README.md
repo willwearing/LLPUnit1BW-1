@@ -1,13 +1,14 @@
 # This is a Lambda Build Week Project - Architecture Firm
 
-### Deployed App: 
 
-### Key Takeaways: 
+### Deployed App: https://group-project-intercom.netlify.app/index.html
+
+### Key Takeaways: https://docs.google.com/document/d/193IcURP3hookRL8ZHnFBN5gF2zl0XKzO9K_fn4fyZi4/edit?usp=sharing
 
 ### Project Brief: 
 
 
-Website for Architecture Firm using vanilla web technologies. Responsive at desktop and mobile.
+Build a website for Smith & Jones Architects, using vanilla web technologies. Responsive at desktop and mobile.
 
 #### Developers:
 
