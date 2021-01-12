@@ -1,6 +1,11 @@
-Forked for personal use and testing 
+# This is a Lambda Build Week Project - Architecture Firm
 
-# LLPUnit1BW
+#### Deployed App: 
+
+#### Key Takeaways: 
+
+#### Project Brief: 
+
 
 Website for Architecture Firm using vanilla web technologies. Responsive at desktop and mobile.
 
